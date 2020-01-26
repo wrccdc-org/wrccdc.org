@@ -11,5 +11,23 @@
 	<atom:link href="https://www.wrccdc.org/support/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Testimonials</title>
+      <link>https://www.wrccdc.org/support/testimonials/</link>
+      <pubDate>Fri, 24 Jan 2020 08:38:19 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/support/testimonials/</guid>
+      <description>&lt;p&gt;Why Support WRCCDC &amp;hellip; our student competitors share why.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sponsors</title>
+      <link>https://www.wrccdc.org/support/sponsors/</link>
+      <pubDate>Mon, 30 Dec 2019 14:55:51 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/support/sponsors/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
