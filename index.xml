@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Western Regional Collegiate Cyber Defense Competition on WRCCDC</title>
+    <link>https://www.wrccdc.org/</link>
+    <description>Recent content in Western Regional Collegiate Cyber Defense Competition on WRCCDC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2020 16:17:14 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.wrccdc.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Team Info</title>
+      <link>https://www.wrccdc.org/participants/team-info/</link>
+      <pubDate>Sat, 25 Jan 2020 16:17:14 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/participants/team-info/</guid>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;Looking for past documents or import forms? Look no further.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2019 Regionals Teams</title>
+      <link>https://www.wrccdc.org/participants/2019-teams/</link>
+      <pubDate>Sat, 25 Jan 2020 15:36:25 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/participants/2019-teams/</guid>
+      <description>&lt;p&gt;Congratulations to the teams that made it to the 2019 Regionals!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2020 Regionals Schedule</title>
+      <link>https://www.wrccdc.org/competition/2020-regionals-schedule/</link>
+      <pubDate>Sat, 25 Jan 2020 15:02:14 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/competition/2020-regionals-schedule/</guid>
+      <description>&lt;hr&gt;
+
+&lt;h2 id=&#34;schedule-of-events&#34;&gt;Schedule of Events&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Competition Format</title>
+      <link>https://www.wrccdc.org/about/competition-format/</link>
+      <pubDate>Sat, 25 Jan 2020 13:44:41 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/about/competition-format/</guid>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;Since the Western Regional of CCDC covers a large region of schools, we host multiple, invitationals each year to give many schools the opportunity to participate in the competition.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mission</title>
+      <link>https://www.wrccdc.org/about/mission/</link>
+      <pubDate>Mon, 30 Dec 2019 15:07:18 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/about/mission/</guid>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;The mission of the Collegiate Cyber Defense Competition (CCDC) system is to provide a controlled, competitive environment for institutions with an information assurance or computer security curriculum to assess their student&amp;rsquo;s depth of understanding and operational competency in managing the challenges inherent in protecting a corporate network infrastructure and business information systems.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.wrccdc.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wrccdc.org/contact/</guid>
+      <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.
+Your Name Email Address An email address is required.  Message   </description>
+    </item>
+    
+    <item>
+      <title>Sponsorship</title>
+      <link>https://www.wrccdc.org/sponsorship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wrccdc.org/sponsorship/</guid>
+      <description>This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out Formspree for a simple, free form service.
+Your Name Email Address An email address is required.  Message   </description>
+    </item>
+    
+  </channel>
+</rss>

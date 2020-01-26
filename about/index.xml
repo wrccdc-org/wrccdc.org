@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on WRCCDC</title>
+    <link>https://www.wrccdc.org/about/</link>
+    <description>Recent content in About on WRCCDC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2019 14:48:50 -0800</lastBuildDate>
+    
+	<atom:link href="https://www.wrccdc.org/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Competition Format</title>
+      <link>https://www.wrccdc.org/about/competition-format/</link>
+      <pubDate>Sat, 25 Jan 2020 13:44:41 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/about/competition-format/</guid>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;Since the Western Regional of CCDC covers a large region of schools, we host multiple, invitationals each year to give many schools the opportunity to participate in the competition.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mission</title>
+      <link>https://www.wrccdc.org/about/mission/</link>
+      <pubDate>Mon, 30 Dec 2019 15:07:18 -0800</pubDate>
+      
+      <guid>https://www.wrccdc.org/about/mission/</guid>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;The mission of the Collegiate Cyber Defense Competition (CCDC) system is to provide a controlled, competitive environment for institutions with an information assurance or computer security curriculum to assess their student&amp;rsquo;s depth of understanding and operational competency in managing the challenges inherent in protecting a corporate network infrastructure and business information systems.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
