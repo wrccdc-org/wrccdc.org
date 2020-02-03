@@ -12,7 +12,18 @@
     
     
     <item>
-      <title>Team Info</title>
+      <title>2020 Participants</title>
+      <link>https://wrccdc-org.github.io/participants/2020-participants/</link>
+      <pubDate>Mon, 03 Feb 2020 12:16:10 -0800</pubDate>
+      
+      <guid>https://wrccdc-org.github.io/participants/2020-participants/</guid>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;Good luck to all the teams involved in the 2020 WRCCDC Season!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Team Documentation</title>
       <link>https://wrccdc-org.github.io/participants/team-info/</link>
       <pubDate>Sat, 25 Jan 2020 16:17:14 -0800</pubDate>
       
@@ -28,16 +39,20 @@
       <pubDate>Sat, 25 Jan 2020 15:36:25 -0800</pubDate>
       
       <guid>https://wrccdc-org.github.io/participants/2019-teams/</guid>
-      <description>&lt;p&gt;Congratulations to the teams that made it to the 2019 Regionals!&lt;/p&gt;</description>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;Congratulations to the teams that made it to the 2019 Regionals!&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>2020 Teams</title>
+      <title>2020 Regionals Teams</title>
       <link>https://wrccdc-org.github.io/participants/2020-teams/</link>
       <pubDate>Sat, 25 Jan 2020 15:35:45 -0800</pubDate>
       
       <guid>https://wrccdc-org.github.io/participants/2020-teams/</guid>
-      <description>&lt;p&gt;Congratulations to the teams that made it to the 2020 Regionals!&lt;/p&gt;</description>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;Congratulations to the teams that made it to the 2020 Regionals!&lt;/p&gt;</description>
     </item>
     
   </channel>
