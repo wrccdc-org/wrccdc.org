@@ -3,6 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wrccdc-org.github.io/seasons/</loc>
+    <lastmod>2020-02-03T17:23:02-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc-org.github.io/seasons/2018/</loc>
+    <lastmod>2020-02-03T17:22:24-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc-org.github.io/seasons/2020/</loc>
+    <lastmod>2020-02-03T17:21:16-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc-org.github.io/seasons/2019/</loc>
+    <lastmod>2020-02-03T17:21:10-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://wrccdc-org.github.io/participants/2020-participants/</loc>
     <lastmod>2020-02-03T12:16:10-08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,21 +59,21 @@
   </url>
   
   <url>
-    <loc>https://wrccdc-org.github.io/participants/2019-teams/</loc>
+    <loc>https://wrccdc-org.github.io/seasons/2019/2019-teams/</loc>
     <lastmod>2020-01-25T15:36:25-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://wrccdc-org.github.io/participants/2020-teams/</loc>
+    <loc>https://wrccdc-org.github.io/seasons/2020/regional-finalists/</loc>
     <lastmod>2020-01-25T15:35:45-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://wrccdc-org.github.io/compete/2020-regionals-schedule/</loc>
+    <loc>https://wrccdc-org.github.io/seasons/2020/2020-regionals-schedule/</loc>
     <lastmod>2020-01-25T15:02:14-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -73,14 +101,14 @@
   </url>
   
   <url>
-    <loc>https://wrccdc-org.github.io/compete/2019-2020-season-competitor-calls/</loc>
+    <loc>https://wrccdc-org.github.io/seasons/2020/2019-2020-season-competitor-calls/</loc>
     <lastmod>2019-12-30T16:39:30-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://wrccdc-org.github.io/compete/2019-2020-season/</loc>
+    <loc>https://wrccdc-org.github.io/seasons/2020/2019-2020-season/</loc>
     <lastmod>2019-12-30T16:04:28-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -110,13 +138,6 @@
   <url>
     <loc>https://wrccdc-org.github.io/support/sponsorship/</loc>
     <lastmod>2019-12-30T14:55:51-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://wrccdc-org.github.io/compete/</loc>
-    <lastmod>2019-12-30T14:53:20-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
