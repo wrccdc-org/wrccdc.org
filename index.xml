@@ -6,10 +6,21 @@
     <description>Recent content in Western Regional Collegiate Cyber Defense Competition on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Feb 2020 16:37:13 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2020 18:27:33 -0800</lastBuildDate>
     
 	<atom:link href="https://wrccdc-org.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Become a Sponsor</title>
+      <link>https://wrccdc-org.github.io/about/become-a-sponsor/</link>
+      <pubDate>Wed, 12 Feb 2020 18:27:33 -0800</pubDate>
+      
+      <guid>https://wrccdc-org.github.io/about/become-a-sponsor/</guid>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;In order to promote the competition&amp;rsquo;s success, we need a strong foundation. Sponsorship allows us to maintain the high quality associated with this program. Sponsorship also defrays institution costs, increases participation, and the number of students entering the workforce with this invaluable experience. &lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>FAQ</title>
@@ -57,10 +68,10 @@
     
     <item>
       <title>Acknowledgements</title>
-      <link>https://wrccdc-org.github.io/support/acknowledgements/</link>
+      <link>https://wrccdc-org.github.io/participate/acknowledgements/</link>
       <pubDate>Sun, 26 Jan 2020 13:16:07 -0800</pubDate>
       
-      <guid>https://wrccdc-org.github.io/support/acknowledgements/</guid>
+      <guid>https://wrccdc-org.github.io/participate/acknowledgements/</guid>
       <description>&lt;hr&gt;
 
 &lt;p&gt;WRCCDC is brought to you by volunteers, who put in countless hours of work every week. Without their help, this competition would not be possible. We would like to take the opportunity to thank everyone for their hard work and contribution.&lt;/p&gt;</description>
@@ -97,17 +108,6 @@
       <description>&lt;hr&gt;
 
 &lt;p&gt;Since the Western Regional of CCDC covers a large region of schools, we host multiple, invitationals each year to give many schools the opportunity to participate in the competition.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Testimonials</title>
-      <link>https://wrccdc-org.github.io/support/testimonials/</link>
-      <pubDate>Fri, 24 Jan 2020 08:38:19 -0800</pubDate>
-      
-      <guid>https://wrccdc-org.github.io/support/testimonials/</guid>
-      <description>&lt;hr&gt;
-
-&lt;p&gt;Why Support WRCCDC &amp;hellip; our student competitors share why.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -165,17 +165,6 @@
 &lt;h4 id=&#34;february-27-28-2004&#34;&gt;February 27 &amp;amp; 28, 2004&lt;/h4&gt;
 
 &lt;p&gt;A group of educators, students, government and industry representatives gathered in San Antonio, Texas, to discuss the feasibility and desirability of establishing regular cyber security exercises with a uniform structure for post-secondary level students.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Sponsorship Information</title>
-      <link>https://wrccdc-org.github.io/support/sponsorship/</link>
-      <pubDate>Mon, 30 Dec 2019 14:55:51 -0800</pubDate>
-      
-      <guid>https://wrccdc-org.github.io/support/sponsorship/</guid>
-      <description>&lt;hr&gt;
-
-&lt;p&gt;Build and recruit future cyber security professionals by supporting WRCCDC. WRCCDC accepts in-kind donations, like equipment or software, and donations in any amount. The amounts specified below include recognition of the donor&amp;rsquo;s support.&lt;/p&gt;</description>
     </item>
     
     <item>
