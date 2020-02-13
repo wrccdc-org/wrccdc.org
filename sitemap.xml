@@ -3,6 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wrccdc-org.github.io/about/faq/</loc>
+    <lastmod>2020-02-12T16:37:13-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc-org.github.io/</loc>
+    <lastmod>2020-02-12T16:37:13-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc-org.github.io/participate/volunteer-info/</loc>
+    <lastmod>2020-02-12T15:40:35-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://wrccdc-org.github.io/seasons/</loc>
     <lastmod>2020-02-03T17:23:02-08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,14 +52,7 @@
   </url>
   
   <url>
-    <loc>https://wrccdc-org.github.io/participants/2020-participants/</loc>
-    <lastmod>2020-02-03T12:16:10-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://wrccdc-org.github.io/</loc>
+    <loc>https://wrccdc-org.github.io/seasons/2020/2020-participants/</loc>
     <lastmod>2020-02-03T12:16:10-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -52,7 +66,7 @@
   </url>
   
   <url>
-    <loc>https://wrccdc-org.github.io/participants/team-info/</loc>
+    <loc>https://wrccdc-org.github.io/participate/team-info/</loc>
     <lastmod>2020-01-25T16:17:14-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -150,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://wrccdc-org.github.io/participants/</loc>
+    <loc>https://wrccdc-org.github.io/participate/</loc>
     <lastmod>2019-12-30T14:50:54-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
