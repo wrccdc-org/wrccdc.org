@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Competition on WRCCDC</title>
-    <link>https://wrccdc-org.github.io/competition/</link>
+    <link>https://wrccdc.org/competition/</link>
     <description>Recent content in Competition on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Dec 2019 14:53:20 -0800</lastBuildDate>
     
-	<atom:link href="https://wrccdc-org.github.io/competition/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wrccdc.org/competition/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2020 Regionals Schedule</title>
-      <link>https://wrccdc-org.github.io/competition/2020-regionals-schedule/</link>
+      <link>https://wrccdc.org/competition/2020-regionals-schedule/</link>
       <pubDate>Sat, 25 Jan 2020 15:02:14 -0800</pubDate>
       
-      <guid>https://wrccdc-org.github.io/competition/2020-regionals-schedule/</guid>
+      <guid>https://wrccdc.org/competition/2020-regionals-schedule/</guid>
       <description>&lt;hr&gt;
 
 &lt;h2 id=&#34;schedule-of-events&#34;&gt;Schedule of Events&lt;/h2&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>2019/2020 Season Competitor Calls</title>
-      <link>https://wrccdc-org.github.io/competition/2019-2020-season-competitor-calls/</link>
+      <link>https://wrccdc.org/competition/2019-2020-season-competitor-calls/</link>
       <pubDate>Mon, 30 Dec 2019 16:39:30 -0800</pubDate>
       
-      <guid>https://wrccdc-org.github.io/competition/2019-2020-season-competitor-calls/</guid>
+      <guid>https://wrccdc.org/competition/2019-2020-season-competitor-calls/</guid>
       <description>&lt;hr&gt;
 
 &lt;h4 id=&#34;competitors-calls-schedule-may-change&#34;&gt;COMPETITORS CALLS (schedule may change)&lt;/h4&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>2019/2020 Season Dates</title>
-      <link>https://wrccdc-org.github.io/competition/2019-2020-season/</link>
+      <link>https://wrccdc.org/competition/2019-2020-season/</link>
       <pubDate>Mon, 30 Dec 2019 16:04:28 -0800</pubDate>
       
-      <guid>https://wrccdc-org.github.io/competition/2019-2020-season/</guid>
+      <guid>https://wrccdc.org/competition/2019-2020-season/</guid>
       <description>&lt;hr&gt;
 
 &lt;p&gt;We are pleased to announce the dates for the WRCCDC 2020 season! We wanted to annouce these dates early to make sure people had enough time to plan.&lt;/p&gt;</description>

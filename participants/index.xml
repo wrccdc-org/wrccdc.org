@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Participants on WRCCDC</title>
-    <link>https://wrccdc-org.github.io/participants/</link>
+    <link>https://wrccdc.org/participants/</link>
     <description>Recent content in Participants on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Dec 2019 14:50:54 -0800</lastBuildDate>
     
-	<atom:link href="https://wrccdc-org.github.io/participants/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wrccdc.org/participants/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2020 Participants</title>
-      <link>https://wrccdc-org.github.io/participants/2020-participants/</link>
+      <link>https://wrccdc.org/participants/2020-participants/</link>
       <pubDate>Mon, 03 Feb 2020 12:16:10 -0800</pubDate>
       
-      <guid>https://wrccdc-org.github.io/participants/2020-participants/</guid>
+      <guid>https://wrccdc.org/participants/2020-participants/</guid>
       <description>&lt;hr&gt;
 
 &lt;p&gt;Good luck to all the teams involved in the 2020 WRCCDC Season!&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Team Documentation</title>
-      <link>https://wrccdc-org.github.io/participants/team-info/</link>
+      <link>https://wrccdc.org/participants/team-info/</link>
       <pubDate>Sat, 25 Jan 2020 16:17:14 -0800</pubDate>
       
-      <guid>https://wrccdc-org.github.io/participants/team-info/</guid>
+      <guid>https://wrccdc.org/participants/team-info/</guid>
       <description>&lt;hr&gt;
 
 &lt;p&gt;Looking for past documents or import forms? Look no further.&lt;/p&gt;</description>
