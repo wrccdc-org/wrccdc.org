@@ -1,25 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 on WRCCDC</title>
-    <link>https://wrccdc-org.github.io/seasons/2019/</link>
+    <link>https://wrccdc.org/seasons/2019/</link>
     <description>Recent content in 2019 on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Feb 2020 17:21:10 -0800</lastBuildDate>
     
-	<atom:link href="https://wrccdc-org.github.io/seasons/2019/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wrccdc.org/seasons/2019/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2019 Regionals Teams</title>
-      <link>https://wrccdc-org.github.io/seasons/2019/2019-teams/</link>
+      <link>https://wrccdc.org/seasons/2019/2019-teams/</link>
       <pubDate>Wed, 23 Jan 2019 15:36:25 -0800</pubDate>
       
-      <guid>https://wrccdc-org.github.io/seasons/2019/2019-teams/</guid>
-      <description>&lt;hr&gt;
-
-&lt;p&gt;Congratulations to the teams that made it to the 2019 Regionals!&lt;/p&gt;</description>
+      <guid>https://wrccdc.org/seasons/2019/2019-teams/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
   </channel>
