@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Participate on WRCCDC</title>
@@ -17,7 +17,9 @@
       <pubDate>Wed, 12 Feb 2020 15:40:35 -0800</pubDate>
       
       <guid>https://wrccdc.org/participate/volunteer-info/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;If you would like to help Volunteer with WRCCDC, please fill out the form below.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -26,7 +28,9 @@
       <pubDate>Sun, 26 Jan 2020 13:16:07 -0800</pubDate>
       
       <guid>https://wrccdc.org/participate/acknowledgements/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;WRCCDC is brought to you by volunteers, who put in countless hours of work every week. Without their help, this competition would not be possible. We would like to take the opportunity to thank everyone for their hard work and contribution.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,7 +39,9 @@
       <pubDate>Sat, 25 Jan 2020 16:17:14 -0800</pubDate>
       
       <guid>https://wrccdc.org/participate/team-info/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;hr&gt;
+
+&lt;p&gt;Looking for past documents and forms? Look no further.&lt;/p&gt;</description>
     </item>
     
   </channel>
