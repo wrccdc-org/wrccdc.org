@@ -6,10 +6,19 @@
     <description>Recent content in Western Regional Collegiate Cyber Defense Competition on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Feb 2020 15:35:45 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2020 23:48:07 -0800</lastBuildDate>
     
 	<atom:link href="https://wrccdc.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Division 2 Registration</title>
+      <link>https://wrccdc.org/participate/d2-registration/</link>
+      <pubDate>Wed, 19 Feb 2020 23:48:07 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/participate/d2-registration/</guid>
+      <description>&lt;p&gt;This is the registration page for Division 2 teams.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Regional Finalists</title>
