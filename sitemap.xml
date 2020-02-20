@@ -3,14 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wrccdc.org/about/become-a-sponsor/</loc>
-    <lastmod>2020-02-12T18:27:33-08:00</lastmod>
+    <loc>https://wrccdc.org/seasons/2020/regional-finalists/</loc>
+    <lastmod>2020-02-19T15:35:45-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wrccdc.org/</loc>
+    <lastmod>2020-02-19T15:35:45-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc.org/about/become-a-sponsor/</loc>
     <lastmod>2020-02-12T18:27:33-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -26,13 +33,6 @@
   <url>
     <loc>https://wrccdc.org/participate/volunteer-info/</loc>
     <lastmod>2020-02-12T15:40:35-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://wrccdc.org/seasons/2020/regional-finalists/</loc>
-    <lastmod>2020-02-12T15:35:45-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
