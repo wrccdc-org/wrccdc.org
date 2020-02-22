@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 on WRCCDC</title>
@@ -18,8 +18,7 @@
       
       <guid>https://wrccdc.org/seasons/2019/2019-teams/</guid>
       <description>&lt;hr&gt;
-
-&lt;p&gt;Congratulations to the teams that made it to the 2019 Regionals!&lt;/p&gt;</description>
+Congratulations to the teams that made it to the 2019 Regionals!</description>
     </item>
     
   </channel>
