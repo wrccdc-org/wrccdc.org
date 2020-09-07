@@ -3,14 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wrccdc.org/seasons/2020/2020-champions/</loc>
-    <lastmod>2020-03-22T09:42:06-07:00</lastmod>
+    <loc>https://wrccdc.org/seasons/2021/registration/</loc>
+    <lastmod>2020-09-07T12:28:47-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wrccdc.org/</loc>
+    <lastmod>2020-09-07T12:28:47-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc.org/seasons/2021/</loc>
+    <lastmod>2020-09-07T12:06:12-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc.org/seasons/2021/2020-2021-season/</loc>
+    <lastmod>2020-09-07T12:01:51-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc.org/seasons/2020/2020-champions/</loc>
     <lastmod>2020-03-22T09:42:06-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
