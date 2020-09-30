@@ -6,13 +6,23 @@
     <description>Recent content in Western Regional Collegiate Cyber Defense Competition on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2020 12:28:47 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2020 18:34:30 -0700</lastBuildDate>
     
 	<atom:link href="https://wrccdc.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Registration</title>
+      <title>November Invitational Registration</title>
+      <link>https://wrccdc.org/seasons/2021/invitational-registration/</link>
+      <pubDate>Tue, 29 Sep 2020 18:34:30 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2021/invitational-registration/</guid>
+      <description>&lt;hr&gt;
+Please use the form below to sign up for the Virtual Fall Invitational coming up in November. If the form does not appear, please click on the link below.</description>
+    </item>
+    
+    <item>
+      <title>Team Registration</title>
       <link>https://wrccdc.org/seasons/2021/registration/</link>
       <pubDate>Mon, 07 Sep 2020 12:28:47 -0700</pubDate>
       

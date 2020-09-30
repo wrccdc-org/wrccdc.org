@@ -3,14 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wrccdc.org/seasons/2021/registration/</loc>
-    <lastmod>2020-09-07T12:28:47-07:00</lastmod>
+    <loc>https://wrccdc.org/seasons/2021/invitational-registration/</loc>
+    <lastmod>2020-09-29T18:34:30-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wrccdc.org/</loc>
+    <lastmod>2020-09-29T18:34:30-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc.org/seasons/2021/registration/</loc>
     <lastmod>2020-09-07T12:28:47-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
