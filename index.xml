@@ -6,10 +6,20 @@
     <description>Recent content in Western Regional Collegiate Cyber Defense Competition on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2020 18:13:36 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 Feb 2021 17:34:22 -0800</lastBuildDate>
     
 	<atom:link href="https://wrccdc.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Registered Teams</title>
+      <link>https://wrccdc.org/seasons/2021/qualifier-registered-teams/</link>
+      <pubDate>Mon, 08 Feb 2021 17:34:22 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2021/qualifier-registered-teams/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;We are pleased to announce the teams that are registered for the WRCCDC 2021 Qualifier. We have 18 teams registered this year. See you at the online round!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>November Training Session 1</title>
