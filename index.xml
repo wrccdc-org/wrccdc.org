@@ -6,10 +6,20 @@
     <description>Recent content in Western Regional Collegiate Cyber Defense Competition on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Feb 2021 12:19:35 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 30 Aug 2021 23:39:30 -0700</lastBuildDate>
     
 	<atom:link href="https://wrccdc.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Season Dates</title>
+      <link>https://wrccdc.org/seasons/2022/2021-2022-season/</link>
+      <pubDate>Mon, 30 Aug 2021 23:39:30 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2022/2021-2022-season/</guid>
+      <description>&lt;hr&gt;
+We are pleased to announce the tentative dates for the WRCCDC 2021-2022 season! We wanted to announce these dates early to make sure people had enough time to plan.</description>
+    </item>
     
     <item>
       <title>Regional Finalists</title>

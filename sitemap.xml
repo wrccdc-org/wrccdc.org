@@ -3,14 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wrccdc.org/seasons/2021/regional-finalists/</loc>
-    <lastmod>2021-02-09T12:19:35-08:00</lastmod>
+    <loc>https://wrccdc.org/seasons/2022/2021-2022-season/</loc>
+    <lastmod>2021-08-30T23:39:30-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wrccdc.org/</loc>
+    <lastmod>2021-08-30T23:39:30-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc.org/seasons/2022/</loc>
+    <lastmod>2021-08-30T23:36:06-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wrccdc.org/seasons/2021/regional-finalists/</loc>
     <lastmod>2021-02-09T12:19:35-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

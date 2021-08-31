@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022 on WRCCDC</title>
+    <link>https://wrccdc.org/seasons/2022/</link>
+    <description>Recent content in 2022 on WRCCDC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Aug 2021 23:36:06 -0700</lastBuildDate>
+    
+	<atom:link href="https://wrccdc.org/seasons/2022/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Season Dates</title>
+      <link>https://wrccdc.org/seasons/2022/2021-2022-season/</link>
+      <pubDate>Mon, 30 Aug 2021 23:39:30 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2022/2021-2022-season/</guid>
+      <description>&lt;hr&gt;
+We are pleased to announce the tentative dates for the WRCCDC 2021-2022 season! We wanted to announce these dates early to make sure people had enough time to plan.</description>
+    </item>
+    
+  </channel>
+</rss>
