@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021 on WRCCDC</title>
+    <link>https://wrccdc.org/seasons/2021/</link>
+    <description>Recent content in 2021 on WRCCDC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2020 12:06:12 -0700</lastBuildDate>
+    
+	<atom:link href="https://wrccdc.org/seasons/2021/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regional Finalists</title>
+      <link>https://wrccdc.org/seasons/2021/regional-finalists/</link>
+      <pubDate>Tue, 09 Feb 2021 12:19:35 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2021/regional-finalists/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;WRCCDC is proud to announce the winners of the WRCCDC Qualifiers 2021! The following 8 teams will move onto the regional. The teams are listed in ranking, based on their total team score.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Registered Teams</title>
+      <link>https://wrccdc.org/seasons/2021/qualifier-registered-teams/</link>
+      <pubDate>Mon, 08 Feb 2021 17:34:22 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2021/qualifier-registered-teams/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;We are pleased to announce the teams that are registered for the WRCCDC 2021 Qualifier. We have 18 teams registered this year. See you at the online round!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>November Training Session 1</title>
+      <link>https://wrccdc.org/seasons/2021/november-training/</link>
+      <pubDate>Tue, 13 Oct 2020 18:13:36 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2021/november-training/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;The Staff of the Western Regional Collegiate Cyber Defense Competition is happy to welcome Bluespawn as our training presenter during out 1st Fall Training Session.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>November Invitational Registration</title>
+      <link>https://wrccdc.org/seasons/2021/invitational-registration/</link>
+      <pubDate>Tue, 29 Sep 2020 18:34:30 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2021/invitational-registration/</guid>
+      <description>&lt;hr&gt;
+Please use the form below to sign up for the Virtual Fall Invitational coming up in November. If the form does not appear, please click on the link below.</description>
+    </item>
+    
+    <item>
+      <title>Team Registration</title>
+      <link>https://wrccdc.org/seasons/2021/registration/</link>
+      <pubDate>Mon, 07 Sep 2020 12:28:47 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2021/registration/</guid>
+      <description>&lt;hr&gt;
+The central registration process for the 2021 CCDC season opens Sept 1, 2020.</description>
+    </item>
+    
+    <item>
+      <title>Season Dates</title>
+      <link>https://wrccdc.org/seasons/2021/2020-2021-season/</link>
+      <pubDate>Mon, 07 Sep 2020 12:01:51 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2021/2020-2021-season/</guid>
+      <description>&lt;hr&gt;
+We are pleased to announce the dates for the WRCCDC 2020-2021 season! We wanted to announce these dates early to make sure people had enough time to plan.</description>
+    </item>
+    
+  </channel>
+</rss>

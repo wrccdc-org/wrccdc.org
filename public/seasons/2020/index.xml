@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020 on WRCCDC</title>
+    <link>https://wrccdc.org/seasons/2020/</link>
+    <description>Recent content in 2020 on WRCCDC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Feb 2020 17:21:16 -0800</lastBuildDate>
+    
+	<atom:link href="https://wrccdc.org/seasons/2020/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2020 Champions</title>
+      <link>https://wrccdc.org/seasons/2020/2020-champions/</link>
+      <pubDate>Sun, 22 Mar 2020 09:42:06 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2020/2020-champions/</guid>
+      <description>&lt;hr&gt;
+Congratulations to the 2020 WRCCDC Champions!</description>
+    </item>
+    
+    <item>
+      <title>Regional Finalists</title>
+      <link>https://wrccdc.org/seasons/2020/regional-finalists/</link>
+      <pubDate>Wed, 19 Feb 2020 15:35:45 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2020/regional-finalists/</guid>
+      <description>&lt;hr&gt;
+Congratulations to the teams that made it to the 2020 Regionals!</description>
+    </item>
+    
+    <item>
+      <title>Season Participants</title>
+      <link>https://wrccdc.org/seasons/2020/2020-participants/</link>
+      <pubDate>Mon, 03 Feb 2020 12:16:10 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2020/2020-participants/</guid>
+      <description>&lt;hr&gt;
+Good luck to all the teams involved in the 2020 WRCCDC Season!</description>
+    </item>
+    
+    <item>
+      <title>Regionals Schedule</title>
+      <link>https://wrccdc.org/seasons/2020/2020-regionals-schedule/</link>
+      <pubDate>Sat, 25 Jan 2020 15:02:14 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2020/2020-regionals-schedule/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;This is the Schedule of Events for the 2020 Regional.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Competitor Calls</title>
+      <link>https://wrccdc.org/seasons/2020/2019-2020-season-competitor-calls/</link>
+      <pubDate>Mon, 30 Dec 2019 16:39:30 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2020/2019-2020-season-competitor-calls/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;These are the tentative dates for the competitor calls. The schedule may be subject to change.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Season Dates</title>
+      <link>https://wrccdc.org/seasons/2020/2019-2020-season/</link>
+      <pubDate>Mon, 30 Dec 2019 16:04:28 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2020/2019-2020-season/</guid>
+      <description>&lt;hr&gt;
+We are pleased to announce the dates for the WRCCDC 2020 season! We wanted to announce these dates early to make sure people had enough time to plan.</description>
+    </item>
+    
+  </channel>
+</rss>

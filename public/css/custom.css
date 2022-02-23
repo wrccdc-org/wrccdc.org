@@ -1,0 +1,11 @@
+.headerImg {
+  vertical-align: middle;
+  max-width: 30%;
+  padding-right: 7px;
+}
+
+.smallerPic {
+  max-width: 35% !important;
+  float: left !important;
+  padding-right: 5px !important;
+}

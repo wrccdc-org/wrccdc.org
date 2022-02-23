@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on WRCCDC</title>
+    <link>https://wrccdc.org/about/</link>
+    <description>Recent content in About on WRCCDC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2019 14:48:50 -0800</lastBuildDate>
+    
+	<atom:link href="https://wrccdc.org/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://wrccdc.org/about/faq/</link>
+      <pubDate>Wed, 12 Feb 2020 16:37:13 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/about/faq/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;Our most Frequently Asked Questions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Competition Format</title>
+      <link>https://wrccdc.org/about/competition-format/</link>
+      <pubDate>Sat, 25 Jan 2020 13:44:41 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/about/competition-format/</guid>
+      <description>&lt;hr&gt;
+Since the Western Regional of CCDC covers a large region of schools, we host multiple, invitationals each year to give many schools the opportunity to participate in the competition.</description>
+    </item>
+    
+    <item>
+      <title>Competition Rules</title>
+      <link>https://wrccdc.org/about/rules/</link>
+      <pubDate>Mon, 30 Dec 2019 15:07:24 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/about/rules/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;The following are the approved national rules for the 2021-2022 CCDC season. Please refer to the official rules for your specific CCDC event for any local variations. WRCCDC largely follows National CCDC rules, however there are minor differences between this and other regions. Contact &lt;a href=&#34;mailto:organizers@wrccdc.org&#34;&gt;organizers@wrccdc.org&lt;/a&gt; if you have questions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mission</title>
+      <link>https://wrccdc.org/about/mission/</link>
+      <pubDate>Mon, 30 Dec 2019 15:07:18 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/about/mission/</guid>
+      <description>&lt;hr&gt;
+The mission of the Collegiate Cyber Defense Competition (CCDC) system is to provide institutions with an information assurance or computer security curriculum a controlled, competitive environment to assess their student&#39;s depth of understanding and operational competency in managing the challenges inherent in protecting a corporate network infrastructure and business information systems.</description>
+    </item>
+    
+    <item>
+      <title>History</title>
+      <link>https://wrccdc.org/about/history/</link>
+      <pubDate>Mon, 30 Dec 2019 15:07:11 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/about/history/</guid>
+      <description>&lt;hr&gt;
+On February 27 &amp; 28, 2004, a group of educators, students, government and industry representatives gathered in San Antonio, Texas, to discuss the feasibility and desirability of establishing regular cyber security exercises with a uniform structure for post-secondary level students.</description>
+    </item>
+    
+    <item>
+      <title>Become a Sponsor</title>
+      <link>https://wrccdc.org/about/become-a-sponsor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wrccdc.org/about/become-a-sponsor/</guid>
+      <description>&lt;hr&gt;
+In order to promote the competition&#39;s success, we need a strong foundation. Sponsorship allows us to maintain the high quality associated with this program. Sponsorship also defrays institution costs, increases participation, and the number of students entering the workforce with this invaluable experience.</description>
+    </item>
+    
+  </channel>
+</rss>
