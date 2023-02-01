@@ -6,19 +6,39 @@
     <description>Recent content in Western Regional Collegiate Cyber Defense Competition on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Aug 2022 23:27:30 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 31 Jan 2023 23:27:30 -0700</lastBuildDate>
     
 	<atom:link href="https://wrccdc.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Invitational Registration</title>
-      <link>https://wrccdc.org/seasons/2023/invitational-registration/</link>
-      <pubDate>Wed, 03 Aug 2022 23:27:30 -0700</pubDate>
+      <title>Qualifier/Team Registration</title>
+      <link>https://wrccdc.org/seasons/2023/qualifier-registration/</link>
+      <pubDate>Tue, 31 Jan 2023 23:27:30 -0700</pubDate>
       
-      <guid>https://wrccdc.org/seasons/2023/invitational-registration/</guid>
+      <guid>https://wrccdc.org/seasons/2023/qualifier-registration/</guid>
       <description>&lt;hr&gt;
-Please fill out this form to sign up for the Fall Invitational coming up in November.</description>
+The WRCCDC Qualifier is coming soon. If you plan to compete, you must register your team (via National CCDC&#39;s page).</description>
+    </item>
+    
+    <item>
+      <title>Competition Rules</title>
+      <link>https://wrccdc.org/about/rules/</link>
+      <pubDate>Tue, 31 Jan 2023 15:07:24 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/about/rules/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;The following are the approved national rules for the 2022-2023 CCDC season. Please refer to the official rules for your specific CCDC event for any local variations. WRCCDC largely follows National CCDC rules, however there are minor differences between this and other regions. Contact &lt;a href=&#34;mailto:organizers@wrccdc.org&#34;&gt;organizers@wrccdc.org&lt;/a&gt; if you have questions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Competition Format</title>
+      <link>https://wrccdc.org/about/competition-format/</link>
+      <pubDate>Tue, 31 Jan 2023 13:44:41 -0800</pubDate>
+      
+      <guid>https://wrccdc.org/about/competition-format/</guid>
+      <description>&lt;hr&gt;
+Since the Western Regional of CCDC covers a large region of schools, we host multiple, invitationals each year to give many schools the opportunity to participate in the competition.</description>
     </item>
     
     <item>
@@ -182,16 +202,6 @@ Looking for past documents and forms? Look no further.</description>
     </item>
     
     <item>
-      <title>Competition Format</title>
-      <link>https://wrccdc.org/about/competition-format/</link>
-      <pubDate>Sat, 25 Jan 2020 13:44:41 -0800</pubDate>
-      
-      <guid>https://wrccdc.org/about/competition-format/</guid>
-      <description>&lt;hr&gt;
-Since the Western Regional of CCDC covers a large region of schools, we host multiple, invitationals each year to give many schools the opportunity to participate in the competition.</description>
-    </item>
-    
-    <item>
       <title>Competitor Calls</title>
       <link>https://wrccdc.org/seasons/2020/2019-2020-season-competitor-calls/</link>
       <pubDate>Mon, 30 Dec 2019 16:39:30 -0800</pubDate>
@@ -209,16 +219,6 @@ Since the Western Regional of CCDC covers a large region of schools, we host mul
       <guid>https://wrccdc.org/seasons/2020/2019-2020-season/</guid>
       <description>&lt;hr&gt;
 We are pleased to announce the dates for the WRCCDC 2020 season! We wanted to announce these dates early to make sure people had enough time to plan.</description>
-    </item>
-    
-    <item>
-      <title>Competition Rules</title>
-      <link>https://wrccdc.org/about/rules/</link>
-      <pubDate>Mon, 30 Dec 2019 15:07:24 -0800</pubDate>
-      
-      <guid>https://wrccdc.org/about/rules/</guid>
-      <description>&lt;hr&gt;
-&lt;p&gt;The following are the approved national rules for the 2021-2022 CCDC season. Please refer to the official rules for your specific CCDC event for any local variations. WRCCDC largely follows National CCDC rules, however there are minor differences between this and other regions. Contact &lt;a href=&#34;mailto:organizers@wrccdc.org&#34;&gt;organizers@wrccdc.org&lt;/a&gt; if you have questions.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -277,10 +277,9 @@ Your Name Email Address An email address is required.  Message   </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wrccdc.org/sponsors/</guid>
-      <description> We would like to take the time to thank all of our sponsors for their support. Without their contributions, this competition would not be possible. If you are interested in sponsoring us for next year, our call for Sponsors for the 2021-2022 season are now open! Please see our Sponsorship Information Page for more information.
- Platinum    
- Gold    
-    Silver   Bronze                       </description>
+      <description>We would like to take the time to thank all of our sponsors for their support. Without their contributions, this competition would not be possible. If you are interested in sponsoring us for next year, our call for Sponsors for the 2022-2023 season are now open! Please see our Sponsorship Information Page for more information.
+ Platinum      Gold    
+ Silver   Bronze</description>
     </item>
     
   </channel>
