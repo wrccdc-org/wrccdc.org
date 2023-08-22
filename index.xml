@@ -6,10 +6,30 @@
     <description>Recent content in Western Regional Collegiate Cyber Defense Competition on WRCCDC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2023 23:27:30 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 22 Aug 2023 11:12:08 -0700</lastBuildDate>
     
 	<atom:link href="https://wrccdc.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Season Schedule</title>
+      <link>https://wrccdc.org/seasons/2024/season-schedule/</link>
+      <pubDate>Tue, 22 Aug 2023 11:12:08 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2024/season-schedule/</guid>
+      <description>&lt;hr&gt;
+Hello Everyone! We are pleased to announce the tentative dates for the WRCCDC 2022-2023 season.</description>
+    </item>
+    
+    <item>
+      <title>Team Registration</title>
+      <link>https://wrccdc.org/seasons/2024/seasonteam-registration/</link>
+      <pubDate>Tue, 22 Aug 2023 11:12:08 -0700</pubDate>
+      
+      <guid>https://wrccdc.org/seasons/2024/seasonteam-registration/</guid>
+      <description>&lt;hr&gt;
+The WRCCDC 2023 Season is starting. If you plan to compete, you must register your team.</description>
+    </item>
     
     <item>
       <title>Qualifier/Team Registration</title>
