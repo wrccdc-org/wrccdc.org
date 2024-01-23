@@ -1,0 +1,11 @@
+--2024-01-22 21:44:45--  https://cdn.discordapp.com/attachments/526107334712360970/1195091310495928483/2024WRCCDC_LOGO.png?ex=65bbf504
+Resolving cdn.discordapp.com (cdn.discordapp.com)... 162.159.135.233, 162.159.130.233, 162.159.129.233, ...
+Connecting to cdn.discordapp.com (cdn.discordapp.com)|162.159.135.233|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 181088 (177K) [image/png]
+Saving to: ‘2024WRCCDC_LOGO.png?ex=65bbf504’
+
+            2024WRCCDC_   0%[                                ]       0  --.-KB/s               2024WRCCDC_LOGO.png?ex= 100%[===============================>] 176.84K  --.-KB/s    in 0.02s   
+
+2024-01-22 21:44:46 (10.2 MB/s) - ‘2024WRCCDC_LOGO.png?ex=65bbf504’ saved [181088/181088]
+
