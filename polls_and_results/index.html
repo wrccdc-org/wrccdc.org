@@ -11,7 +11,7 @@
   <meta property="og:title" content="WRCCDC — Poll & Results" />
   <meta property="og:description" content="Preseason poll, weekly coaches/organizers polls, and recent competition results." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.wrccdc.org/polls/" />
+  <meta property="og:url" content="https://www.wrccdc.org/polls_and_results/" />
   <meta property="og:image" content="/images/wrccdc-social-card.png" />
 
   <style>
@@ -24,13 +24,20 @@
     .pill { display: inline-block; padding: .2rem .6rem; border: 1px solid #ddd; border-radius: 999px; font-size: .85rem; }
     table { width: 100%; border-collapse: collapse; margin: .75rem 0; }
     th, td { border-bottom: 1px solid #eee; padding: .5rem .6rem; text-align: left; }
-    th { background: #fafafa; }
+    th { background: #fafafa; position: sticky; top: 0; z-index: 1; }
     .dataset { margin-bottom: 2rem; }
     .toolbar { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin:.5rem 0; }
     .toolbar a { text-decoration: none; border:1px solid #ddd; padding:.4rem .6rem; border-radius:8px; }
     .alert { border-left: 4px solid #eab308; padding:.75rem 1rem; background:#fffbeb; border-radius:8px; }
     .hidden { display:none; }
     .kicker { font-size: .9rem; letter-spacing: .03em; color: #555; }
+
+    /* New: visual polish for CSV + image */
+    .table-wrap { overflow-x:auto; border:1px solid #e6e6e6; border-radius:12px; }
+    table.striped tbody tr:nth-child(odd) { background:#fafafa; }
+    .caption { margin:.25rem 0 1rem; font-size:.9rem; color:#666; }
+    img.figure { display:block; max-width:100%; height:auto; border:1px solid #e6e6e6; border-radius:12px; }
+
     @media (prefers-color-scheme: dark) {
       body { background:#0b0b0c; color:#e8e8e8; }
       .card { background:#111214; border-color:#26272b; }
@@ -40,6 +47,9 @@
       .toolbar a { border-color:#2c2d33; }
       .alert { background:#1f1a05; border-color:#b58a06; }
       .muted { color:#aaa; }
+      .table-wrap, img.figure { border-color:#26272b; }
+      table.striped tbody tr:nth-child(odd) { background:#141519; }
+      .caption { color:#aaa; }
     }
   </style>
 </head>
@@ -55,7 +65,7 @@
     <p class="muted">Preseason poll, weekly Coaches/Organizers polls, and recent competition outcomes.</p>
 
     <div id="notice" class="alert hidden">
-      Couldn’t load <code>/data/polls.json</code>. Add the manifest (see repo instructions) to enable auto-rendering.
+      Couldn’t load a data manifest. Add <code>/polls_and_results/data/polls.json</code> (or <code>/data/polls.json</code>) to auto-render datasets.
     </div>
 
     <section id="polls-section">
@@ -73,13 +83,13 @@
       <details>
         <summary><strong>How this page works (for site maintainers)</strong></summary>
         <div class="card" style="margin-top:1rem;">
-          <p>Drop CSV files in <code>/data/</code> and list them in <code>/data/polls.json</code>. The page fetches the manifest and renders tables automatically.</p>
+          <p>Drop CSV/PNG files in <code>/polls_and_results/data/</code> (or <code>/data/</code>) and list them in a manifest. The page fetches and renders automatically.</p>
           <ol>
-            <li>Upload CSVs like <code>/data/polls/preseason-2025.csv</code> or <code>/data/events/2025-invitational-1.csv</code>.</li>
-            <li>Edit <code>/data/polls.json</code> to register each dataset (title, date, csv path).</li>
-            <li>Optional: add <code>notes</code> or a <code>download</code> link to a PDF/PNG.</li>
+            <li>Upload CSVs like <code>/polls_and_results/data/preseason-coaches.csv</code>.</li>
+            <li>Upload images like <code>/polls_and_results/data/INV1-results.png</code>.</li>
+            <li>Create <code>polls.json</code> and register each dataset.</li>
           </ol>
-          <p class="muted">CSV columns are flexible. The table renders whatever headers you provide (first row must be header row).</p>
+          <p class="muted">CSV columns are flexible. The first row must be headers.</p>
         </div>
       </details>
     </section>
@@ -94,18 +104,24 @@
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
 
-    const manifestPath = '/polls_and_results/data/polls.json';
+    // Try page-local manifest first; if missing, fall back to site-root.
+    const manifestCandidates = [
+      '/polls_and_results/data/polls.json',
+      '/data/polls.json'
+    ];
 
     async function loadManifest() {
-      try {
-        const res = await fetch(manifestPath, { cache: 'no-store' });
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        return await res.json();
-      } catch (e) {
-        document.getElementById('notice').classList.remove('hidden');
-        console.warn('Manifest load failed:', e);
-        return null;
+      for (const url of manifestCandidates) {
+        try {
+          const res = await fetch(url, { cache: 'no-store' });
+          if (res.ok) {
+            document.getElementById('notice')?.classList.add('hidden');
+            return await res.json();
+          }
+        } catch (_) {}
       }
+      document.getElementById('notice').classList.remove('hidden');
+      return null;
     }
 
     function csvToRows(csvText) {
@@ -129,9 +145,7 @@
         }
         i++;
       }
-      // flush last field/row
       if (field.length || row.length) { row.push(field); rows.push(row); }
-      // trim trailing empty final row
       if (rows.length && rows[rows.length-1].every(v => v === '')) rows.pop();
       return rows;
     }
@@ -141,7 +155,11 @@
       const headers = rows[0];
       const body = rows.slice(1);
 
+      const wrap = document.createElement('div');
+      wrap.className = 'table-wrap';
+
       const table = document.createElement('table');
+      table.className = 'striped';
       const thead = document.createElement('thead');
       const trh = document.createElement('tr');
       headers.forEach(h => {
@@ -157,7 +175,6 @@
         const tr = document.createElement('tr');
         r.forEach((cell, idx) => {
           const td = document.createElement('td');
-          // highlight Rank col if present
           if (/^rank$/i.test(headers[idx])) td.style.fontWeight = '600';
           td.textContent = cell;
           tr.appendChild(td);
@@ -166,7 +183,8 @@
       });
       table.appendChild(tbody);
 
-      container.appendChild(table);
+      wrap.appendChild(table);
+      container.appendChild(wrap);
     }
 
     function datasetCard(ds) {
@@ -213,11 +231,44 @@
       mount.className = 'mount';
       card.appendChild(mount);
 
-      // fetch and render CSV
+      // Render image if provided (e.g., Invitational results PNG)
+      if (ds.image) {
+        const img = document.createElement('img');
+        img.src = ds.image;
+        img.alt = ds.title || 'Results image';
+        img.className = 'figure';
+        img.loading = 'lazy';
+        mount.appendChild(img);
+
+        const cap = document.createElement('div');
+        cap.className = 'caption';
+        const link = document.createElement('a');
+        link.href = ds.image;
+        link.textContent = (ds.image.split('/').pop()) || 'Open image';
+        link.target = '_blank';
+        cap.appendChild(document.createTextNode('File: '));
+        cap.appendChild(link);
+        mount.appendChild(cap);
+      }
+
+      // Fetch and render CSV + raw viewer
       if (ds.csv) {
         fetch(ds.csv, { cache: 'no-store' })
           .then(r => r.ok ? r.text() : Promise.reject('HTTP ' + r.status))
-          .then(csv => renderTable(mount, csvToRows(csv)))
+          .then(csv => {
+            renderTable(mount, csvToRows(csv));
+            const details = document.createElement('details');
+            const sum = document.createElement('summary');
+            const fileName = (ds.csv.split('/').pop()) || 'data.csv';
+            sum.textContent = `View raw CSV (${fileName})`;
+            const pre = document.createElement('pre');
+            pre.style.whiteSpace = 'pre-wrap';
+            pre.style.margin = '.5rem 0 0';
+            pre.textContent = csv;
+            details.appendChild(sum);
+            details.appendChild(pre);
+            mount.appendChild(details);
+          })
           .catch(err => {
             const warn = document.createElement('div');
             warn.className = 'alert';
