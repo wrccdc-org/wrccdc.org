@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WRCCDC — Poll & Results</title>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" href="/images/favicon.ico">
+  <meta name="description" content="WRCCDC Poll & Results: preseason polls, weekly rankings, and competition outcomes." />
+  <meta property="og:title" content="WRCCDC — Poll & Results" />
+  <meta property="og:description" content="Preseason poll, weekly coaches/organizers polls, and recent competition results." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.wrccdc.org/polls/" />
+  <meta property="og:image" content="/images/wrccdc-social-card.png" />
+
+  <style>
+    /* Minimal helpers if /css/main.css is absent */
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+    h1,h2,h3 { margin: .4em 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+    .card { border: 1px solid #e6e6e6; border-radius: 12px; padding: 1rem; background: #fff; }
+    .muted { color: #666; }
+    .pill { display: inline-block; padding: .2rem .6rem; border: 1px solid #ddd; border-radius: 999px; font-size: .85rem; }
+    table { width: 100%; border-collapse: collapse; margin: .75rem 0; }
+    th, td { border-bottom: 1px solid #eee; padding: .5rem .6rem; text-align: left; }
+    th { background: #fafafa; }
+    .dataset { margin-bottom: 2rem; }
+    .toolbar { display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin:.5rem 0; }
+    .toolbar a { text-decoration: none; border:1px solid #ddd; padding:.4rem .6rem; border-radius:8px; }
+    .alert { border-left: 4px solid #eab308; padding:.75rem 1rem; background:#fffbeb; border-radius:8px; }
+    .hidden { display:none; }
+    .kicker { font-size: .9rem; letter-spacing: .03em; color: #555; }
+    @media (prefers-color-scheme: dark) {
+      body { background:#0b0b0c; color:#e8e8e8; }
+      .card { background:#111214; border-color:#26272b; }
+      table { border-color:#26272b; }
+      th, td { border-color:#1b1c20; }
+      th { background:#121316; }
+      .toolbar a { border-color:#2c2d33; }
+      .alert { background:#1f1a05; border-color:#b58a06; }
+      .muted { color:#aaa; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="/" class="brand">WRCCDC</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Poll & Results</h1>
+    <p class="muted">Preseason poll, weekly Coaches/Organizers polls, and recent competition outcomes.</p>
+
+    <div id="notice" class="alert hidden">
+      Couldn’t load <code>/data/polls.json</code>. Add the manifest (see repo instructions) to enable auto-rendering.
+    </div>
+
+    <section id="polls-section">
+      <h2>Polls</h2>
+      <div id="polls" class="dataset-list"></div>
+    </section>
+
+    <section id="events-section">
+      <h2>Competition Results</h2>
+      <div id="events" class="dataset-list"></div>
+    </section>
+
+    <hr style="margin:2rem 0;">
+    <section>
+      <details>
+        <summary><strong>How this page works (for site maintainers)</strong></summary>
+        <div class="card" style="margin-top:1rem;">
+          <p>Drop CSV files in <code>/data/</code> and list them in <code>/data/polls.json</code>. The page fetches the manifest and renders tables automatically.</p>
+          <ol>
+            <li>Upload CSVs like <code>/data/polls/preseason-2025.csv</code> or <code>/data/events/2025-invitational-1.csv</code>.</li>
+            <li>Edit <code>/data/polls.json</code> to register each dataset (title, date, csv path).</li>
+            <li>Optional: add <code>notes</code> or a <code>download</code> link to a PDF/PNG.</li>
+          </ol>
+          <p class="muted">CSV columns are flexible. The table renders whatever headers you provide (first row must be header row).</p>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer" style="border-top:1px solid #eee;padding:1rem 0;margin-top:3rem;">
+    <div class="wrap">
+      <small>&copy; <span id="y"></span> WRCCDC. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    const manifestPath = '/data/polls.json';
+
+    async function loadManifest() {
+      try {
+        const res = await fetch(manifestPath, { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return await res.json();
+      } catch (e) {
+        document.getElementById('notice').classList.remove('hidden');
+        console.warn('Manifest load failed:', e);
+        return null;
+      }
+    }
+
+    function csvToRows(csvText) {
+      // simple CSV parser (handles quoted values, commas, newlines)
+      const rows = [];
+      let i = 0, field = '', row = [], inQuotes = false;
+      const s = csvText.replace(/\r/g, '');
+      while (i < s.length) {
+        const c = s[i];
+        if (inQuotes) {
+          if (c === '"') {
+            if (s[i+1] === '"') { field += '"'; i++; } else { inQuotes = false; }
+          } else {
+            field += c;
+          }
+        } else {
+          if (c === '"') inQuotes = true;
+          else if (c === ',') { row.push(field); field = ''; }
+          else if (c === '\n') { row.push(field); rows.push(row); row = []; field = ''; }
+          else { field += c; }
+        }
+        i++;
+      }
+      // flush last field/row
+      if (field.length || row.length) { row.push(field); rows.push(row); }
+      // trim trailing empty final row
+      if (rows.length && rows[rows.length-1].every(v => v === '')) rows.pop();
+      return rows;
+    }
+
+    function renderTable(container, rows) {
+      if (!rows || !rows.length) return;
+      const headers = rows[0];
+      const body = rows.slice(1);
+
+      const table = document.createElement('table');
+      const thead = document.createElement('thead');
+      const trh = document.createElement('tr');
+      headers.forEach(h => {
+        const th = document.createElement('th');
+        th.textContent = h;
+        trh.appendChild(th);
+      });
+      thead.appendChild(trh);
+      table.appendChild(thead);
+
+      const tbody = document.createElement('tbody');
+      body.forEach(r => {
+        const tr = document.createElement('tr');
+        r.forEach((cell, idx) => {
+          const td = document.createElement('td');
+          // highlight Rank col if present
+          if (/^rank$/i.test(headers[idx])) td.style.fontWeight = '600';
+          td.textContent = cell;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+
+      container.appendChild(table);
+    }
+
+    function datasetCard(ds) {
+      const card = document.createElement('article');
+      card.className = 'card dataset';
+
+      const h3 = document.createElement('h3');
+      h3.textContent = ds.title || 'Untitled Dataset';
+      card.appendChild(h3);
+
+      const meta = document.createElement('div');
+      meta.className = 'muted';
+      meta.innerHTML = [
+        ds.date ? `<span class="pill" title="Date">${ds.date}</span>` : '',
+        ds.type ? `<span class="pill" title="Type">${ds.type}</span>` : ''
+      ].filter(Boolean).join(' ');
+      card.appendChild(meta);
+
+      if (ds.notes) {
+        const p = document.createElement('p');
+        p.className = 'kicker';
+        p.textContent = ds.notes;
+        card.appendChild(p);
+      }
+
+      const toolbar = document.createElement('div');
+      toolbar.className = 'toolbar';
+      if (ds.csv) {
+        const a = document.createElement('a');
+        a.href = ds.csv;
+        a.download = '';
+        a.textContent = 'Download CSV';
+        toolbar.appendChild(a);
+      }
+      if (ds.download) {
+        const a2 = document.createElement('a');
+        a2.href = ds.download;
+        a2.textContent = 'Download PDF/PNG';
+        toolbar.appendChild(a2);
+      }
+      card.appendChild(toolbar);
+
+      const mount = document.createElement('div');
+      mount.className = 'mount';
+      card.appendChild(mount);
+
+      // fetch and render CSV
+      if (ds.csv) {
+        fetch(ds.csv, { cache: 'no-store' })
+          .then(r => r.ok ? r.text() : Promise.reject('HTTP ' + r.status))
+          .then(csv => renderTable(mount, csvToRows(csv)))
+          .catch(err => {
+            const warn = document.createElement('div');
+            warn.className = 'alert';
+            warn.textContent = 'Could not load CSV: ' + err;
+            mount.appendChild(warn);
+          });
+      }
+      return card;
+    }
+
+    (async function init() {
+      const manifest = await loadManifest();
+      if (!manifest) return;
+      const pollsRoot = document.getElementById('polls');
+      const eventsRoot = document.getElementById('events');
+
+      (manifest.polls || []).forEach(ds => pollsRoot.appendChild(datasetCard(ds)));
+      (manifest.events || []).forEach(ds => eventsRoot.appendChild(datasetCard(ds)));
+    })();
+  </script>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
