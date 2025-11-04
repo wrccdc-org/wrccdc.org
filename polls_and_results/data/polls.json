@@ -11,7 +11,7 @@
       "type": "Organizers",
       "csv": "/polls_and_results/data/2ndOrganizersPoll.csv",
       "notes": "Second organizers poll of the season."
-    }
+    },
     {
       "title": "Preseason — Coaches",
       "type": "Coaches",
@@ -23,7 +23,7 @@
       "type": "Organizers",
       "csv": "/polls_and_results/data/preseason-organizers.csv",
       "notes": "Aggregate organizers preseason ballot."
-    },
+    }
   ],
   "events": [
     {
