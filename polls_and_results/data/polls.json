@@ -27,9 +27,15 @@
   ],
   "events": [
     {
-      "title": "Invitational #1 — Results",
+      "title": "Invitational #2 — Results",
       "type": "Competition",
       "image": "/polls_and_results/data/INV1-results.png",
+      "notes": "Official standings graphic."
+    }
+    {
+      "title": "Invitational #1 — Results",
+      "type": "Competition",
+      "image": "/polls_and_results/data/inv2results.PNG",
       "notes": "Official standings graphic."
     }
   ]
