@@ -1,5 +1,17 @@
 {
   "polls": [
+ {
+      "title": "Pre-INV 2 — Coaches Poll",
+      "type": "Coaches",
+      "csv": "/polls_and_results/data/2ndCoachesPoll.csv",
+      "notes": "Second coaches poll of the season."
+    },
+    {
+      "title": "Pre-INV 2 — Organizers Poll",
+      "type": "Organizers",
+      "csv": "/polls_and_results/data/2ndOrganizersPoll.csv",
+      "notes": "Second organizers poll of the season."
+    }
     {
       "title": "Preseason — Coaches",
       "type": "Coaches",
@@ -12,18 +24,6 @@
       "csv": "/polls_and_results/data/preseason-organizers.csv",
       "notes": "Aggregate organizers preseason ballot."
     },
-    {
-      "title": "Week 2 — Coaches Poll",
-      "type": "Coaches",
-      "csv": "/polls_and_results/data/2ndCoachesPoll.csv",
-      "notes": "Second coaches poll of the season."
-    },
-    {
-      "title": "Week 2 — Organizers Poll",
-      "type": "Organizers",
-      "csv": "/polls_and_results/data/2ndOrganizersPoll.csv",
-      "notes": "Second organizers poll of the season."
-    }
   ],
   "events": [
     {
