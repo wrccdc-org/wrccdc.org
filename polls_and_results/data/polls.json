@@ -1,6 +1,6 @@
 {
   "polls": [
- {
+    {
       "title": "Pre-INV 2 — Coaches Poll",
       "type": "Coaches",
       "csv": "/polls_and_results/data/2ndCoachesPoll.csv",
