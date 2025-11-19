@@ -33,7 +33,7 @@
       "date": "2025-11-14",
       "type": "Organizers",
       "csv": "/data/3rdOrganizersPoll.csv"
-    }    
+    }
   ],
   "events": [
     {
@@ -54,7 +54,8 @@
       "title": "Invitational #3 — Results",
       "date": "2025-11-15",
       "type": "Competition",
-      "image": "/data/INV3-results.png"
+      "image": "/data/INV3-results.png",
+      "notes": "Official standings graphic."
     }
   ]
 }
