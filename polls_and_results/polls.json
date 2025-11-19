@@ -1,38 +1,46 @@
 {
   "polls": [
     {
-      "title": "Preseason Poll – 2025–26 (Combined)",
+      "title": "Preseason — Coaches Poll",
       "date": "2025-09-15",
-      "type": "Preseason",
-      "csv": "/data/preseason-2025.csv",
-      "download": "/data/preseason-2025.pdf",
-      "notes": "Aggregate ranking from Coaches and Organizers preseason ballots."
+      "type": "Coaches",
+      "csv": "/data/preseason-coaches.csv",
+      "notes": "Coaches preseason ballot."
     },
     {
-      "title": "Pre-INV2 Coaches Poll",
+      "title": "Preseason — Organizers Poll",
+      "date": "2025-09-15",
+      "type": "Organizers",
+      "csv": "/data/preseason-organizers.csv",
+      "notes": "Organizers preseason ballot."
+    },
+    {
+      "title": "Pre-INV2 — Coaches Poll",
       "date": "2025-10-01",
       "type": "Coaches",
-      "csv": "/data/2025-wk01-coaches.csv",
-      "notes": "Released after Invitational #1 scrimmages."
+      "csv": "/data/2ndCoachesPoll.csv",
+      "notes": "Released before Invitational #2."
     },
     {
-      "title": "Pre-INV3 Coaches Poll",
+      "title": "Pre-INV2 — Organizers Poll",
+      "date": "2025-10-01",
+      "type": "Organizers",
+      "csv": "/data/2ndOrganizersPoll.csv",
+      "notes": "Released before Invitational #2."
+    },
+    {
+      "title": "Pre-INV3 — Coaches Poll",
       "date": "2025-11-14",
       "type": "Coaches",
       "csv": "/data/3rdCoachesPoll.csv",
-      "notes": "Released after Invitational #2 scrimmages."
+      "notes": "Released before Invitational #3."
     },
     {
-      "title": "Pre-INV2 Organizers Poll",
-      "date": "2025-10-01",
-      "type": "Organizers",
-      "csv": "/data/2025-wk01-organizers.csv"
-    },
-    {
-      "title": "Pre-INV3 Organizers Poll",
+      "title": "Pre-INV3 — Organizers Poll",
       "date": "2025-11-14",
       "type": "Organizers",
-      "csv": "/data/3rdOrganizersPoll.csv"
+      "csv": "/data/3rdOrganizersPoll.csv",
+      "notes": "Released before Invitational #3."
     }
   ],
   "events": [
@@ -40,15 +48,15 @@
       "title": "Invitational #1 — Results",
       "date": "2025-09-27",
       "type": "Competition",
-      "csv": "/data/2025-invitational-1.csv",
-      "download": "/data/2025-invitational-1-results.pdf",
-      "notes": "Overall standings and special awards."
+      "image": "/data/INV1-results.png",
+      "notes": "Official standings graphic."
     },
     {
       "title": "Invitational #2 — Results",
       "date": "2025-10-11",
       "type": "Competition",
-      "csv": "/data/2025-invitational-2.csv"
+      "image": "/data/inv2results.PNG",
+      "notes": "Official standings graphic."
     },
     {
       "title": "Invitational #3 — Results",
