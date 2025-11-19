@@ -1,41 +1,68 @@
 {
   "polls": [
     {
-      "title": "Pre-INV 2 — Coaches Poll",
+      "title": "Preseason — Coaches Poll",
+      "date": "2025-09-15",
       "type": "Coaches",
-      "csv": "/polls_and_results/data/2ndCoachesPoll.csv",
-      "notes": "Second coaches poll of the season."
+      "csv": "/data/preseason-coaches.csv",
+      "notes": "Coaches preseason ballot."
     },
     {
-      "title": "Pre-INV 2 — Organizers Poll",
+      "title": "Preseason — Organizers Poll",
+      "date": "2025-09-15",
       "type": "Organizers",
-      "csv": "/polls_and_results/data/2ndOrganizersPoll.csv",
-      "notes": "Second organizers poll of the season."
+      "csv": "/data/preseason-organizers.csv",
+      "notes": "Organizers preseason ballot."
     },
     {
-      "title": "Preseason — Coaches",
+      "title": "Pre-INV2 — Coaches Poll",
+      "date": "2025-10-01",
       "type": "Coaches",
-      "csv": "/polls_and_results/data/preseason-coaches.csv",
-      "notes": "Aggregate coaches preseason ballot."
+      "csv": "/data/2ndCoachesPoll.csv",
+      "notes": "Released before Invitational #2."
     },
     {
-      "title": "Preseason — Organizers",
+      "title": "Pre-INV2 — Organizers Poll",
+      "date": "2025-10-01",
       "type": "Organizers",
-      "csv": "/polls_and_results/data/preseason-organizers.csv",
-      "notes": "Aggregate organizers preseason ballot."
+      "csv": "/data/2ndOrganizersPoll.csv",
+      "notes": "Released before Invitational #2."
+    },
+    {
+      "title": "Pre-INV3 — Coaches Poll",
+      "date": "2025-11-14",
+      "type": "Coaches",
+      "csv": "/data/3rdCoachesPoll.csv",
+      "notes": "Released before Invitational #3."
+    },
+    {
+      "title": "Pre-INV3 — Organizers Poll",
+      "date": "2025-11-14",
+      "type": "Organizers",
+      "csv": "/data/3rdOrganizersPoll.csv",
+      "notes": "Released before Invitational #3."
     }
   ],
   "events": [
     {
-      "title": "Invitational #2 — Results",
+      "title": "Invitational #1 — Results",
+      "date": "2025-09-27",
       "type": "Competition",
-      "image": "/polls_and_results/data/inv2results.PNG",
+      "image": "/data/INV1-results.png",
       "notes": "Official standings graphic."
     },
     {
-      "title": "Invitational #1 — Results",
+      "title": "Invitational #2 — Results",
+      "date": "2025-10-11",
       "type": "Competition",
-      "image": "/polls_and_results/data/INV1-results.png",
+      "image": "/data/inv2results.PNG",
+      "notes": "Official standings graphic."
+    },
+    {
+      "title": "Invitational #3 — Results",
+      "date": "2025-11-15",
+      "type": "Competition",
+      "image": "/data/INV3-results.png",
       "notes": "Official standings graphic."
     }
   ]
